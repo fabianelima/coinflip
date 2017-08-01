@@ -15,7 +15,8 @@
     coined = function() {
       var c;
       $('.coin').css({
-        opacity: '1'
+        opacity: '1',
+        height: '2em'
       });
       c = Math.floor(Math.random() * 2);
       if (coin === void 0) {

@@ -25,6 +25,7 @@ main {
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
+	box-shadow: 0 0 1em #6e6e6e;
 
 	h1, h2, h3 { font-size: 1.5em; text-transform: uppercase; }
 	small { font-size: 30%; }
@@ -42,7 +43,7 @@ main {
 		box-sizing: border-box;
 	}
 
-	button:hover { box-shadow: 0 0.1em 0.1em #404040; }
+	button:hover { box-shadow: 0 0.1em 0.1em #6e6e6e; }
 	button:active { transform: translateY(0.1em); }
 
 	.content {
@@ -63,12 +64,13 @@ main {
 			border-radius: 50%;
 			margin-top: 0.5em;
 			width: 2em;
-			height: 2em;
+			height: 0;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			flex-direction: column;
 			opacity: 0;
+			box-shadow: 0 0.1em 0.1em #6e6e6e;
 		}
 	}
 }

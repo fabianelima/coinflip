@@ -10,7 +10,7 @@ $ ->
 	ctrl = []
 
 	coined = ->
-		$('.coin').css { opacity: '1' }
+		$('.coin').css { opacity: '1', height: '2em' }
 
 		c = Math.floor((Math.random() * 2))
 		if coin is undefined then coin = c
